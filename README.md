@@ -54,4 +54,4 @@ To make this process easier I intend to learn Git.
 
 ## Acknowledgments
 
-Hard and Smart work is a key!
+- Hard and Smart work is a key!
