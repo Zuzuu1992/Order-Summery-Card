@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+font-family: 'Red Hat Display';
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body{
+background: url("pattern-background-desktop.svg");
+min-height:100vh;
+background-repeat:no-repeat;
+background-color:#e0e7ff;
+background-size:contain;
+min-height:100vh;
+display:flex;
+width:100%;
+justify-content:center;
+align-items:center;
+
+}
+
+
+.content{
+background-color:white;
+width:450px;
+border-radius:1.2em;
+overflow:hidden;
+box-shadow:0px 40px 40px -20px #0D30BD27;
+
+}
+
+img {
+max-width:100%;
+}
+
+.illustration {
+max-width:100%;
+overflow:hidden;
+}
+
+.toptext{
+padding:2rem;
+text-align:center;
+display:flex;
+flex-direction:column;
+gap:1.5rem;
+}
+
+h1{
+color:#1F2E55;
+font-size:1.5em;
+font-weight:heavy;
+}
+
+#possibility{
+color:#717FA6;
+font-size:1.1rem;
+line-height:1.5em;
+
+}
+
+.subscription{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background-color:#F7F9FF;
+border-radius:0.8rem;
+padding:1.5rem;
+margin-top:1rem;
+margin-bottom:0.5rem;
+
+}
+
+.section{
+display:flex;
+gap: 1.2rem;
+align-items:center;
+
+}
+
+.price{
+display:flex;
+gap: 0.2rem;
+flex-direction:column;
+text-align:left;
+}
+
+.price b{
+color:#1F2E55;
+
+}
+
+.price span{
+color:#717FA6;
+font-size:0.9em;
+}
+
+.link{
+justify-content:center;
+display:flex;
+color:#382AE1;
+font-weight:bold;
+font-size:0.9em;
+line-height:1.1em;
+}
+
+.link:hover{
+color:#766CF1;
+}
+
+.btns{
+display:flex;
+flex-direction:column;
+gap:1rem;
+}
+
+button{
+background-color:#382AE1;
+color:#FFFFFF;
+font-weight: 900px;
+font-size:1em;
+line-height:1.2em;
+border-radius:11px;
+border:none;
+padding:1rem;
+box-shadow:0px 20px 20px 0px #382AE131;
+transition-duration: 0.4s;
+}
+
+button:hover{
+opacity:80%;
+background-color:#766CF1;
+cursor:pointer;
+
+}
+
+#cancel{
+text-decoration:none;
+color:#717FA6;
+font-weight: 900px;
+font-size:0.9em;
+line-height:1.2em;
+}
+
+#cancel:hover{
+color:#1F2E55;
+font-weight:bold;
+}
+
+@media screen and (max-width:375px) {
+body{background-image: url("pattern-background-desktop.svg")
+}
+.content {
+width: 330px;
+}
+
+#possibility {
+font-size:0.9em;
+}
+
+.toptext{
+gap:1.2em;
+}
+
+.price{
+font-size:0.8em;
+}
+
+.section{
+gap:1.1rem;
+}
+
+.link{
+font-size:0.8em;
+}
+
+#cancel{
+font-size:0.8em;}
+}
