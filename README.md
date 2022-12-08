@@ -12,10 +12,6 @@ Users should be able to:
 
 - Create responsive summery card and hover states for interactive elements
 
-### Screenshot
-
-![](./summery.png)
-
 ### Links
 
 - Solution URL: [https://github.com/Zuzuu1992/Order-Summery-Card/blob/main/index.html)
